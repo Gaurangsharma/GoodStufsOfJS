@@ -8,4 +8,4 @@ const getLocalStorage=function (obj){
 obj={
     name: "Gaurang",
     city: "Mathura"
-}
+} 
