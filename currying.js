@@ -6,6 +6,7 @@ let multiply=(x,y)=>{
 
 const multiplybytwo= multiply.bind(this,2);
 multiplybytwo(5);
+multiplybytwo(6);
 
 
 const multiplybyThree= multiply.bind(this,7);

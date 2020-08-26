@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded",function(){
     document.querySelector("#child")
     .addEventListener('click',(e)=>{
         console.log("Child Clicked");
+        e.stopPropagation();
     },true)//propogation itself is expensive so we stop the propogation through stop propogation
     
 })
